@@ -35,3 +35,6 @@ void keyPressed(){
 void keyReleased(){
   myFinch.setWheelVelocities(0,0);
 }
+void stop() {
+myFinch.quit();
+}
